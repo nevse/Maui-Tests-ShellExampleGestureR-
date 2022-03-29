@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShellExampleGestureR.MainPage"
+             xmlns:local="clr-namespace:ShellExampleGestureR"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <Tab Title="About">
+        <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+    </Tab>
+    <Tab Title ="About2" >
+        <ShellContent ContentTemplate="{DataTemplate local:AboutPage2}" />
+    </Tab>
+</Shell>

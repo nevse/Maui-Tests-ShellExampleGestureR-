@@ -1,0 +1,22 @@
+﻿<!--#if (ShouldRemoveFromTemplate) -->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            
+             Title="{Binding Title}"
+             IconImageSource="info"
+             x:Class="ShellExampleGestureR.AboutPage">
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="100,*">
+            <Button Text="Open modal" Clicked="OnButtonClicked" />
+            <Grid Grid.Row="2" BackgroundColor="Red">
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer
+                        NumberOfTapsRequired="1"
+                        Tapped="OnTapGestureRecognizerTapped">
+                    </TapGestureRecognizer>
+                </Grid.GestureRecognizers>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

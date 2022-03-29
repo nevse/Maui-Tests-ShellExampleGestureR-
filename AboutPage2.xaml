@@ -1,0 +1,15 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="{Binding Title}"
+             IconImageSource="info"
+             Shell.PresentationMode="Modal"
+             x:Class="ShellExampleGestureR.AboutPage2">
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="300,*">
+            <Label Text="Page2" />
+            <Grid Grid.Row="2" BackgroundColor="Green">
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
