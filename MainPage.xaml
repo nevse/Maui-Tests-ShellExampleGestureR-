@@ -8,7 +8,4 @@
     <Tab Title="About">
         <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
     </Tab>
-    <Tab Title ="About2" >
-        <ShellContent ContentTemplate="{DataTemplate local:AboutPage2}" />
-    </Tab>
 </Shell>
